@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Piaf</title>
+    <meta name="description" content="cantine gourmande, 100% maison, 100% de saison et BIO">
+    <meta name='keywords' content='restaurant, paris, clichy, sain, maison, cuisine, bio, cantine, saison' >
+    <meta name="author" content="Sophie Llosa">
+
+    <meta property='og:title' content='Piaf'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='http://restopiaf.fr'>
+    <meta property='og:image' content='http://restopiaf.fr/img/og.jpg'>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="og:site_name" content="Piaf"/>
+    <meta property='og:description' content='cantine gourmande, 100% maison, 100% de saison et BIO' >
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Piaf"/>
+    <meta name="twitter:description" content="cantine gourmande, 100% maison, 100% de saison et BIO"/>
+    <meta name="twitter:site" content="http://restopiaf.fr"/>
+    <meta name="twitter:domain" content="Restaurant"/>
+    <meta name="twitter:creator" content="Sophie Llosa"/>
+    <meta name="twitter:image:src" content="http://restopiaf.fr/img/og.jpg">
+
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Quicksand" rel="stylesheet">
+
+
+
+    <style type="text/css">
+      body {
+        background: #005056;
+        color: white;
+        margin: 0;
+        padding: 0;
+        border: 40px solid white;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .container {
+        width: 960px;
+        margin: auto;
+        margin-top: 60px;
+      }
+
+      .header a {
+        width: 200px;
+        margin: auto;
+        display: block;
+      }
+
+      .header a h1 {
+        height: 0;
+        padding-top: 200px;
+        width: 200px;
+        overflow: hidden;
+        background: transparent url(img/logo.png) no-repeat top center;
+        background-size: cover;
+      }
+
+      .separator {
+        width: 70px;
+        height: 29px;
+        background: transparent url(img/separator.png) no-repeat top center;
+        background-size: cover;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      #description {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      #business-card {
+        font-family: 'Crete Round', serif;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+      }
+
+      #menu-wrapper {
+        background: #7bcac9;
+        width: 600px;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+
+      #menu-wrapper #menu {
+        font-family: 'Crete Round', serif;
+        border: 6px solid white;
+        margin: 0;
+        text-align: center;
+        list-style: none;
+        padding-left: 0;
+        padding-bottom: 40px;
+      }
+
+      #menu-wrapper #menu .title {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        background: transparent url(img/menu-title-underline.png) no-repeat bottom center;
+        padding-bottom: 12px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+
+      #menu-wrapper #menu .dish {
+        font-size: 26px;
+        color: #005056;
+      }
+
+      #menu-wrapper #menu .price {
+        font-family: serif;
+        font-size: 16px;
+        color: #005056;
+      }
+
+      #menu-wrapper #menu .choices {
+        color: #005056;
+      }
+
+      #menu-wrapper #menu .space-up {
+        margin-top: 20px;
+      }
+
+      #menu-wrapper #menu .no-space-down {
+        margin-bottom: 0px;
+      }
+
+      #menu-wrapper #menu .separator {
+        background-image: url(img/separator-yellow.png);
+      }
+
+      footer {
+        font-size: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      @media (max-width : 480px) {
+        body {
+          border: none;
+        }
+
+        .container {
+          width: 100%;
+        }
+
+        #menu-wrapper {
+          width: 100%;
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        #menu-wrapper #menu {
+          border: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="home" class="container" itemscope itemtype="http://schema.org/Restaurant">
+      <header class="header">
+        <a href="/">
+          <h1 itemprop="name">Piaf</h1>
+        </a>
+      </header>
+
+      <div id="main">
+        <p id="description">
+          Cantine gourmande, 100% maison, 100% de saison et BIO
+        </p>
+      </div>
+
+      <div class="separator"></div>
+
+      <div id="business-card">
+        <div id="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">31, Bd Jean Jaurès</span><br/>
+          <span itemprop="postalCode">92110</span> <span itemprop="addressLocality">Clichy</span>
+          <br/><br/>
+          <a href="tel:+33669675947" itemprop="telephone">06 69 67 59 47</a>
+        </div>
+      </div>
+
+      <div class="separator"></div>
+
+      <div id="menu-wrapper">
+        <ul id="menu">
+          <li class="title">
+            Du côté salé . . .
+          </li>
+
+          <li class="dish">
+            Veggie Stew
+          </li>
+          <li class="price">
+            (Épicé / Non Épicé)
+            <br/>
+            8€90
+          </li>
+
+          <li class="choice-title space-up">
+            Base :
+          </li>
+          <li class="choices">
+            Riz / Lentilles / Quinoa
+          </li>
+
+          <li class="choice-title space-up">
+            Topping Graines :
+          </li>
+          <li class="choices">
+            Graines de Fenouil / Graines d’Anis / Graines de Coriandre
+            <br/>
+            Graines de Lin / Graines de Sésame / Graines de Tournesol
+          </li>
+
+          <li class="choice-title space-up">
+            Topping Noix :
+          </li>
+          <li class="choices">
+            Noix de Cajou / Cacahuètes / Noisettes
+          </li>
+
+          <li class="choice-title space-up">
+            Topping Herbes :
+          </li>
+          <li class="choices">
+            Coriandre / Persil Plat / Cerfeuil
+          </li>
+
+          <li class="choice-title space-up">
+            Topping pour les no veggies :
+          </li>
+          <li class="choices">
+            Emietté de Poisson / Eloché de Viande (+ 1€)
+          </li>
+
+
+          <li class="separator"></li>
+
+
+          <li class="dish">
+            1 Salade par jour
+          </li>
+          <li class="price">
+            7€
+          </li>
+
+          <li class="dish">
+            1 Soupe par jour
+          </li>
+          <li class="price">
+            5€
+          </li>
+
+
+          <li class="title no-space-down">
+            Du côté sucré . . .
+          </li>
+          <li class="price">
+            3€50
+          </li>
+
+          <li class="choices space-up">
+            Cookies Pommes, Miel et Flocon d’Avoine
+          </li>
+          <li class="choices">
+            Banana Bread
+          </li>
+          <li class="choices">
+            Cake Citron Pavot
+          </li>
+          <li class="choices">
+            Crumble
+          </li>
+
+        </ul>
+      </div>
+
+      <footer>
+        <a class="facebook fa fa-facebook-square" target="_blank" href="https://www.facebook.com/RestoPIAF/"></a>
+      </footer>
+    <div>
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Restaurant",
+        "image": "http://restopiaf.fr/img/og.jpg",
+        "@id": "http://restopiaf.fr",
+        "name": "Piaf",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "31 boulevard Jean Jaurès",
+          "addressLocality": "Clichy",
+          "postalCode": "92110",
+          "addressCountry": "FR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 48.898599,
+          "longitude": 2.307063
+        },
+        "url": "http://restopiaf.fr",
+        "telephone": "+33669675947",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "8:00",
+            "closes": "17:00"
+          }
+        ],
+        "menu": "http://restopiaf.fr",
+        "acceptsReservations": "True"
+      }
+    </script>
+  </body>
+</html>
